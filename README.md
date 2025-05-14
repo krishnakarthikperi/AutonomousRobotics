@@ -25,3 +25,10 @@ Task 1: Recreate a traffic light system (2 sets of RYG LEDs). The system is by d
 Task 2: Use an RGB LED for the pedestrian signal. [TinkerCad](https://www.tinkercad.com/things/kXappy6Xs52-l6-e2?sharecode=kGg1CQsxhN0q7CDnr1d_ZvqJnVmJ-r5hL_6yeRPlioQ)
 Task 3: Use an RGB LED to make it glow in purple, white, orange, etc (TinkerCad)[https://www.tinkercad.com/things/iV5nr1n2Q8U-l6-e3?sharecode=UjqDg25dqTmqDcbUgBkmGSE6PlNp_s8ac_LQCGCpG5U]
 Task 4: Use a potentiometer to sweep colours from [0,1,0] to [1,0,0] in RGB. [TinkerCad](https://www.tinkercad.com/things/26zWguSU4IT-l6-e4?sharecode=jyP4HkH_PsF_LFhRsHZ4Y5RcpWNczzD5UyQbnj2g9uo)
+Task 5: Create a circuit with a photoresistor and an LED, so that the LED lights up when it is dark outside. (TinkerCad)[https://www.tinkercad.com/things/3Davgd1QEK2-l6-e5?sharecode=O4kOQMAjRZU8Ny3yp54x34_tb2RBdxz_nFtqjq5Sy0s]
+Task 6: Find out the resistance of your photoresistor when it is kept in the dark. (TinkerCad)[https://www.tinkercad.com/things/d3EiTU34cj7-l6-e6?sharecode=WFO1CmR362hwqIdw7fSKIGCKnuQ1oyo5F-ojQTZCqWc]
+Task 7: Using a buzzer, photoresistor, and a potentiometer, create a Museum alarm. The alarm should ring when someone gets too close to it. The critical distance at which the alarm rings should be changeable through the potentiostat. (TinkerCad)[https://www.tinkercad.com/things/8BtZlgjC2ex-l6-e7?sharecode=wZuSYGKfdB22nwAV_PBsV_xiHrVZ7FvhT5gLiHLGqU4]
+
+## Lecture 7 (L7)
+Task 1: Use a photoresistor and a servo motor to create a “responsive façade”. The servo controls the “blinds” of the façade: when the sun is high, the blinds rotate to block the light, when the sun is down, the blinds open. (TinkerCad)[https://www.tinkercad.com/things/7Jza14MF2xT-l7-e1?sharecode=aoHIWEA9ARgf_DTTCo6eFznIzwj-YIdmBGoafLh5tEQ]
+Task 2: Add a potentiometer to the previous build as a manual override. Add a button, which when pressed gives back the control to the photoresistor. (TinkerCad)[https://www.tinkercad.com/things/jejG3j78Np3-l7-e2?sharecode=Bl0B4UseA5KSEqPAnQ5NDjJM10BEbPGiXFXMmvIVeyE]
