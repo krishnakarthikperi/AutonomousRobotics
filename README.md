@@ -32,3 +32,6 @@ Task 7: Using a buzzer, photoresistor, and a potentiometer, create a Museum alar
 ## Lecture 7 (L7)
 Task 1: Use a photoresistor and a servo motor to create a “responsive façade”. The servo controls the “blinds” of the façade: when the sun is high, the blinds rotate to block the light, when the sun is down, the blinds open. (TinkerCad)[https://www.tinkercad.com/things/7Jza14MF2xT-l7-e1?sharecode=aoHIWEA9ARgf_DTTCo6eFznIzwj-YIdmBGoafLh5tEQ]
 Task 2: Add a potentiometer to the previous build as a manual override. Add a button, which when pressed gives back the control to the photoresistor. (TinkerCad)[https://www.tinkercad.com/things/jejG3j78Np3-l7-e2?sharecode=Bl0B4UseA5KSEqPAnQ5NDjJM10BEbPGiXFXMmvIVeyE]
+
+## Lecture 8 (L8)
+Task 1: Design a SONAR using servo motor and ultrasonic sensor. The SONAR should detect the angle and distance of the target.(TinkerCad)[https://www.tinkercad.com/things/ebkMCnl9cFR-l8-e1?sharecode=Jq8AZSrAGb3Qj0iY_hnlXRfHMgW7FhgYH4_PMXRUe7w]
