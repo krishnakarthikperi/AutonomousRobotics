@@ -34,4 +34,9 @@ Task 1: Use a photoresistor and a servo motor to create a “responsive façade�
 Task 2: Add a potentiometer to the previous build as a manual override. Add a button, which when pressed gives back the control to the photoresistor. (TinkerCad)[https://www.tinkercad.com/things/jejG3j78Np3-l7-e2?sharecode=Bl0B4UseA5KSEqPAnQ5NDjJM10BEbPGiXFXMmvIVeyE]
 
 ## Lecture 8 (L8)
-Task 1: Design a SONAR using servo motor and ultrasonic sensor. The SONAR should detect the angle and distance of the target.(TinkerCad)[https://www.tinkercad.com/things/ebkMCnl9cFR-l8-e1?sharecode=Jq8AZSrAGb3Qj0iY_hnlXRfHMgW7FhgYH4_PMXRUe7w]
+Task 1: Create a sweeping sonar. When you press a button, a servo motor with the sonar attached starts sweeping; display on the serial monitor the distance and degree at which an object is encountered. Add a buzzer and a potentiometer such that the buzzer sounds an alarm when the object is closer than a threshold set by the potentiometer. (TinkerCad)[https://www.tinkercad.com/things/ebkMCnl9cFR-l8-e1?sharecode=Jq8AZSrAGb3Qj0iY_hnlXRfHMgW7FhgYH4_PMXRUe7w]
+
+## Lecture 9 (L9)
+Task 1: Implement speed and direction control of DC motor using motor driver. (TinkderCad)[https://www.tinkercad.com/things/hQFXQeNhNZq-t9-e1?sharecode=ssyJ--enrY9uXA9EL-aQJ9RGSzLXlL0EwSXE7S0W-p0]
+Task 2: Connect a joystick and a servo motor to your Arduino. The X axis of the joystick should control the position of the servo, the Y axis should control the speed of your servo. (TinkderCad)[https://www.tinkercad.com/things/jBH7puMLjbX-l9-e2?sharecode=sx0xOgpInCRInGCJG7_X7Qp3aVcHlTyHyqpikAJR47A]
+Task 3: Connect a joystick and a DC motor with driver to your Arduino. The joystick button controls the ON/OFF state of your DC motor. The X axis of the joystick should control the position of the DC motor, the Y axis should control the speed of your DC motor. (TinkderCad)[https://www.tinkercad.com/things/8ns9XnWueLS-l9-e3?sharecode=aI2JDslLahwrMjz2dYkeOpVLgoYrUWIsbH-upbgxe-U]  
