@@ -40,3 +40,7 @@ Task 1: Create a sweeping sonar. When you press a button, a servo motor with the
 Task 1: Implement speed and direction control of DC motor using motor driver. (TinkderCad)[https://www.tinkercad.com/things/hQFXQeNhNZq-t9-e1?sharecode=ssyJ--enrY9uXA9EL-aQJ9RGSzLXlL0EwSXE7S0W-p0]
 Task 2: Connect a joystick and a servo motor to your Arduino. The X axis of the joystick should control the position of the servo, the Y axis should control the speed of your servo. (TinkderCad)[https://www.tinkercad.com/things/jBH7puMLjbX-l9-e2?sharecode=sx0xOgpInCRInGCJG7_X7Qp3aVcHlTyHyqpikAJR47A]
 Task 3: Connect a joystick and a DC motor with driver to your Arduino. The joystick button controls the ON/OFF state of your DC motor. The X axis of the joystick should control the position of the DC motor, the Y axis should control the speed of your DC motor. (TinkderCad)[https://www.tinkercad.com/things/8ns9XnWueLS-l9-e3?sharecode=aI2JDslLahwrMjz2dYkeOpVLgoYrUWIsbH-upbgxe-U]  
+
+## Lecture 10 (L10)
+Task 1: Add 8 LEDs to your breadboard. You can write 0-255 in binary using the 8 LEDs as single binary outputs. Each time you press a button, you increment your 8 bit binary (LED) display by 1. (TinkderCad)[https://www.tinkercad.com/things/kVURZBKromT-l10-e1?sharecode=ZI4OUAidDzWflnI0jRTleM_Q-n75_stDYuh5SGgV6GQ]
+Task 2: Connect a 7 segment display to your shift register and use it to display 0-9.  (TinkerCad)[https://www.tinkercad.com/things/8KylMT2PSQs-l10-e2?sharecode=9NLwuxp8euI5xc2Eb32ITGwi-VGX8BO40h-8VyqgH4Y]
