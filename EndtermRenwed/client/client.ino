@@ -4,6 +4,8 @@
 
 #define CE_PIN 9
 #define CSN_PIN 8
+#define RST_PIN         4           // Configurable, see typical pin layout above
+#define SS_PIN          7          // Configurable, see typical pin layout above
 
 #define DEBUG 1 // Set to 1 for detailed Serial output, 0 for quiet operation
 #if DEBUG
@@ -32,6 +34,13 @@ struct RequestData {
 
 void setup(){
     Serial.begin(9600);
+    pinMode(SS_PIN, OUTPUT);     
+    pinMode(RST_PIN, OUTPUT);    
+    // digitalWrite(SS_PIN, HIGH);  // Disable RFID chip select
+    // digitalWrite(RST_PIN, LOW);  // Hold RFID in reset
+    enableRF();
+    delay(100);  // Let everything settle
+
     radioSetup();
 }
 
@@ -97,4 +106,22 @@ void sendPasswordForValidation(String password){
     DEBUG_PRINT("RF_RX: Server responded: ");
     DEBUG_PRINTLN(response);
 
+}
+
+void enableRF() {
+  digitalWrite(SS_PIN, HIGH);     // Disable RC522
+  digitalWrite(RST_PIN, LOW);     // Hold RC522 in reset (disabled)
+  delay(100);
+
+  digitalWrite(CSN_PIN, LOW);     // Enable RF24
+  delay(100);
+}
+
+void enableRFID() {
+  digitalWrite(CSN_PIN, HIGH);    // Disable RF24
+  delay(100);
+
+  digitalWrite(RST_PIN, HIGH);    // Release RC522 from reset
+  digitalWrite(SS_PIN, LOW);      // Enable RC522
+  delay(100);
 }
