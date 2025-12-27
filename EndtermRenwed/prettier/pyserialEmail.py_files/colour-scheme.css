@@ -1,0 +1,6 @@
+Error: Cannot find module './base16-atelier-dune-light.css'
+    at a (c:\Users\LOQ\.vscode\extensions\pdconsec.vscode-print-1.5.1\dist\extension.js:2:2572170)
+    at r (c:\Users\LOQ\.vscode\extensions\pdconsec.vscode-print-1.5.1\dist\extension.js:2:2572119)
+    at T.respond (c:\Users\LOQ\.vscode\extensions\pdconsec.vscode-print-1.5.1\dist\extension.js:2:3876188)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Server.<anonymous> (c:\Users\LOQ\.vscode\extensions\pdconsec.vscode-print-1.5.1\dist\extension.js:2:3860802)
